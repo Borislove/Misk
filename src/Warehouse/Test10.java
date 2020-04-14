@@ -2,5 +2,5 @@ package Warehouse;
 
 public class Test10 {
 
-    int a = 1;
+    int a = 1; //переменная а = 1
 }
