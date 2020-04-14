@@ -11,7 +11,7 @@ public class Fibonachi {
       int a = 1;
         int b = 0;
         int fibo;
-        for(int i = 0; i < 20; i++){
+        for(int i = 0; i < 27; i++){
             fibo = a+b;
             a = b;
             b = fibo;
