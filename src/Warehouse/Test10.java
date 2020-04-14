@@ -8,5 +8,8 @@ public class Test10 {
         System.out.println(a);
         a++;
         System.out.println(a);
+        if (a == 0) {
+            System.err.print("a не может быть равна 0");
+        }
     }
 }
