@@ -1,5 +1,5 @@
 package Warehouse;
-
+//Эксперименты с коммитами
 public class Test10 {
 
     static int a = -1; //переменная а = 1
