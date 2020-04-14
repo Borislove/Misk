@@ -9,7 +9,7 @@ public class Test10 {
         a++;
         System.out.println(a);
         if (a == 0) {
-            System.err.print("a не может быть равна 0");
+            System.err.print("значение переменной не может равнятся 0");
         }
     }
 }
