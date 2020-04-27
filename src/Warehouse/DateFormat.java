@@ -27,8 +27,6 @@ public class DateFormat {
 
         String b = String.valueOf(a);
         System.out.println(b);
-
-
         System.out.println(ups + 1);
 
         if (ups > 0) {
