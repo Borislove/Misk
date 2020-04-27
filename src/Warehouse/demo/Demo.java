@@ -1,4 +1,4 @@
-package Warehouse;
+package Warehouse.demo;
 
 //7801678586\780101001 ООО "Рога и Копыта" превращался в ООО Рога и Копыта ИНН 7801678586 КПП 780101001
 
@@ -7,6 +7,7 @@ public class Demo {
     public static void main(String[] args) {
 
         String input = "7801678586\\780101001 ООО \"Рога и Копыта\"";
+
 
         String output = "";
 
@@ -21,7 +22,7 @@ public class Demo {
 
 
         //String leng = "7801678586\\780101001";   //20   -1 слеш ??
-        String leng = "7801678586\\780101001 ООО \"Рога и Копыта\"";
+        String leng = "78********\\780101001 ЗАО \"Пюпитр\"";
        // System.out.println(leng.length());
 
 
@@ -65,6 +66,9 @@ public class Demo {
 
         System.out.print(texd);
         System.out.println("ИНН " + String.valueOf(endIn) + " КПП " + String.valueOf(endkPpp));
+
+
+
     }
 
 }
