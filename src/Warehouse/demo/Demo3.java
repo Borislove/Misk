@@ -10,6 +10,7 @@ import java.io.*;
 public class Demo3 {
 
 
+    //в буфер копи
     public static void setClipboard(String str) {
         StringSelection ss = new StringSelection(str);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
@@ -32,12 +33,10 @@ public class Demo3 {
         char[] dst = new char[end - start];
         leng.getChars(start, end, dst, 0);
 
-
         //инн
         int endInn = 10;
         char[] endIn = new char[endInn - start];
         leng.getChars(start, endInn, endIn, 0);
-
 
         //кпп
         int startKpp = 11;
@@ -45,6 +44,7 @@ public class Demo3 {
         char[] endkPpp = new char[stopKpp - startKpp];
         leng.getChars(startKpp, stopKpp, endkPpp, 0);
 
+        //остатки
         int startTest = 20;
         int stop = leng.length();
         char[] stopText = new char[stop - startTest];

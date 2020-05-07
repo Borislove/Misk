@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Misk:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Misk_jar</output-path>
+    <root id="archive" name="Misk.jar">
+      <element id="module-output" name="Misk" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JAVA/КУРСЫ/PROgwards/seabattle/seabattle.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
