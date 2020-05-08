@@ -2,6 +2,9 @@
   <artifact type="jar" name="Misk:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Misk_jar</output-path>
     <root id="archive" name="Misk.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/test/META-INF/MANIFEST.MF" />
+      </element>
       <element id="module-output" name="Misk" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../JAVA/КУРСЫ/PROgwards/seabattle/seabattle.1.0.jar" path-in-jar="/" />
     </root>
