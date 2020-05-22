@@ -59,7 +59,7 @@ public class CharTest {
         }
 
         System.out.println("--------------------------");
-        System.out.println("заглавны (большие) буквы");
+        System.out.println("заглавные (большие) буквы");
         System.out.println("--------------------------");
 
         for (int i = 1; i < 33; i++) {
