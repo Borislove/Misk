@@ -10,10 +10,16 @@ public class Cup {
     //Image img = new ImageIcon("C:\\Users\\User\\Desktop\\Проекты\\msjacman.png").getImage();
     //Image img = new ImageIcon("C:\\Users\\User\\Desktop\\123.jpg").getImage();   //с рабочего стола загрузка
 
-    Image img_c = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\bug.png").getImage();
+    /*Image img_c = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\bug.png").getImage();
     Image img_left = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\bug_left.png").getImage();
     Image img_right = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\bug_right.png").getImage();
     Image img_down = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\bug_down.png").getImage();
+    */
+
+    Image img_c = new ImageIcon("E:\\Misk\\src\\Warehouse\\catch_word\\res\\bug.png").getImage();
+    Image img_left = new ImageIcon("E:\\Misk\\src\\Warehouse\\catch_word\\res\\bug_left.png").getImage();
+    Image img_right = new ImageIcon("E:\\Misk\\src\\Warehouse\\catch_word\\res\\bug_right.png").getImage();
+    Image img_down = new ImageIcon("E:\\Misk\\src\\Warehouse\\catch_word\\res\\bug_down.png").getImage();
 
     Image img = img_c;
 

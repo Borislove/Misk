@@ -14,7 +14,9 @@ public class Words {
     int y;
     int v;
 
-     Image img = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\drop.png").getImage();   //стабильно
+     //Image img = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\drop.png").getImage();   //стабильно
+     Image img = new ImageIcon("E:\\Misk\\src\\Warehouse\\catch_word\\res\\drop.png").getImage();   //стабильно
+
     //Image img = new ImageIcon(getClass().getResource("/res/drop.png")).getImage();   //не считывает!
     //Image img = new ImageIcon ( "res\\public.png").getImage();   //в коллекции видит , в окне нет
     // Image img = new ImageIcon ( "src\\res\\public.png").getImage();   //в коллекции видит , в окне нет

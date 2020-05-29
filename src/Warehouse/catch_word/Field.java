@@ -20,7 +20,10 @@ public class Field extends JPanel implements ActionListener, Runnable {
 
     Timer mainTimer = new Timer(20, (ActionListener) this);
 
-    Image img = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\background.jpg").getImage(); //абсолютный путь
+    //Image img = new ImageIcon("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\catch_word\\res\\background.jpg").getImage(); //абсолютный путь
+
+    //фон
+    Image img = new ImageIcon("E:\\Misk\\src\\Warehouse\\catch_word\\res\\background.jpg").getImage(); //абсолютный путь
 
 
     Cup cup = new Cup();
