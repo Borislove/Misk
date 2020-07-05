@@ -3,7 +3,8 @@ package Warehouse.utils;
 import java.io.InputStream;
 
 //
-abstract class Scanner {
+// TODO: 06.07.2020 !
+class Scanner {
     public Scanner(InputStream in) {
     }
 
