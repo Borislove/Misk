@@ -16,7 +16,7 @@ public class ClearConsole {
     }
 
     public static void main(String[] args) throws IOException {
-        Cmd.cmd();
+        Cmd.cmd(); //отключить когда в cmd, не сработает через java
 
         Scanner scanner = new Scanner(System.in);
 

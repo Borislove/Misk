@@ -3,10 +3,7 @@ package Warehouse.utils;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 
-
 public class Boof {
-
-
 
     public static void setClipboard(String str) {
         StringSelection ss = new StringSelection(str);

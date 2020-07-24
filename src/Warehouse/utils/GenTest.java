@@ -12,7 +12,10 @@ public class GenTest {
         int threeLength = listThree.length;
 
 
-        for (int i = 0; i < 100; i++) {
+        int iter = 0;
+
+        for (int i = 0; i < 10000; i++) {
+
 
             int rand1 = (int) (Math.random() * oneLength);
             int rand2 = (int) (Math.random() * twoLength);
@@ -21,11 +24,27 @@ public class GenTest {
             String num = listOne[rand1] + " " + listTwo[rand2] + " " + listThree[rand3];
             System.out.println(num);
 
-            if (rand1 == rand2) {
+            if (rand1 == rand2 && rand1 == rand3) {
                 System.err.println("совпали");
+
                 System.out.println("rand1 " + rand1);
                 System.out.println("rand2 " + rand2);
+                System.out.println("rand3 " + rand3);
+
+                System.out.println("iter " + iter);
+                break;
             }
+
+            iter++;
         }
     }
 }
+
+//i < 10000
+//iter987
+//пропуск
+//пропуск
+//пропуск
+//iter 2807
+//пропуск
+//iter 2056
