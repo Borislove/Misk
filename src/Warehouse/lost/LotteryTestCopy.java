@@ -70,6 +70,7 @@ public class LotteryTestCopy {
 
                     array[0] = num;
 
+                    // TODO: 04.11.2020 b1 = !b1;
                     b1 = false;
                     //  break;
                 }
