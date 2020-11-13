@@ -9,7 +9,8 @@ public class FrameConst extends JFrame {
         setSize(300, 300);
         setLocationRelativeTo(null); //center
         setVisible(true);
-        setDefaultCloseOperation(FrameConst.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        //setDefaultCloseOperation(FrameConst.EXIT_ON_CLOSE);
         //  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   //можно так
     }
 
