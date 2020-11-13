@@ -7,11 +7,20 @@ public class FrameConst extends JFrame {
     public FrameConst(String str) {
         super(str);
         setSize(300, 300);
+        setLocationRelativeTo(null); //center
         setVisible(true);
+        setDefaultCloseOperation(FrameConst.EXIT_ON_CLOSE);
+        //  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   //можно так
     }
 
+}
+
+class Main {
     public static void main(String[] args) {
 
-        FrameConst fc = new FrameConst("FrameConstr");
+        new FrameConst("FrameConstr");
+
+        //  FrameConst fc = new FrameConst("test");
+        //    fc.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }
