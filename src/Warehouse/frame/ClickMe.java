@@ -32,7 +32,7 @@ public class ClickMe extends JFrame {
         Handler handler = new Handler();
         button.addActionListener(handler);
 
-        text.setText(String.valueOf(count));
+     //   text.setText(String.valueOf(count));
 
     }
 
