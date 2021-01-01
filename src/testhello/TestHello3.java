@@ -1,30 +1,38 @@
-public class TestHello {
+package testhello;
+
+public class TestHello3 {
+
     public static void main(String[] args) throws InterruptedException {
 
         String str = "Привет";
 
-        Thread.sleep(300);
+        sleeping(500);
         System.out.print(str + "\b" + "\b" + "\b" + "\b" + "\b" + "\r");
-        Thread.sleep(300);
+        sleeping(500);
         System.out.print(str + "\b" + "\b" + "\b" + "\b" + "\r");
 
-        Thread.sleep(300);
+        sleeping(500);
         System.out.print(str + "\b" + "\b" + "\b" + "\r");
 
-        Thread.sleep(300);
+        sleeping(500);
         System.out.print(str + "\b" + "\b" + "\r");
 
-        Thread.sleep(300);
+        sleeping(500);
         System.out.print(str + "\b" + "\r");
 
-        Thread.sleep(300);
+        sleeping(500);
         System.out.print(str);
 
         for (int i = 0; i < 10; i++) {
-            Thread.sleep(500);
+            sleeping(400);
             System.out.print("!");
-            Thread.sleep(500);
+            sleeping(400);
             System.out.print("\b");
         }
+
+    }
+
+    static void sleeping(int sleep) throws InterruptedException{  //исключение прерывания
+        Thread.sleep(sleep);
     }
 }
