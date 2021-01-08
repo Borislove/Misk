@@ -14,6 +14,5 @@ public class TestLenght {
         String text = "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0";
         String testStr = String.valueOf(text);
         System.out.println(testStr.length());
-
     }
 }
