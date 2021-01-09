@@ -1,5 +1,7 @@
 package generator_random_color;
 
+//два одинаковых цвета
+//перенос строк? что то не так
 public class RandColor {
     static String text = "Съешь ещё этих мягких французских булок, да выпей же чаю.";
 
@@ -25,17 +27,21 @@ public class RandColor {
     static String str = " " + aChar;
 
 
-    public static void start(){
+    public static void start() {
         for (Character value : ch) {
             aChar = value;
             colorRand();
             str += aChar + colors[colorNumb];
         }
-        System.out.println(str);
+        //System.out.print(str);
+        //System.out.print(str+"\n");
+      //  System.out.println("");
     }
 
 
     public static void main(String[] args) {
+
+
         /*for (Character value : ch) {
             aChar = value;
             colorRand();
@@ -43,9 +49,21 @@ public class RandColor {
         }
         System.out.println(str);*/
         //start();
-        for (int i = 0; i < 5; i++) {
+
+       /* for (int i = 0; i < 5; i++) {
             System.out.print(i);
             start();
-        }
+        }*/
+
+        start();
+        System.out.println(str);
+       /* start();
+        System.out.println(str);
+
+        start();
+        System.out.println(str);
+
+        start();
+        System.out.println(str);*/
     }
 }
