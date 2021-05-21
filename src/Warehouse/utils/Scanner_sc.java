@@ -4,8 +4,8 @@ import java.io.InputStream;
 
 //
 // TODO: 06.07.2020 !
-class Scanner {
-    public Scanner(InputStream in) {
+class Scanner_sc {
+    public Scanner_sc(InputStream in) {
     }
 
     public static void main(String[] args) {
@@ -14,18 +14,18 @@ class Scanner {
       /*  int a, b, c;
         String s1, s2;
         System.out.println("Введите два числа");
-        a = new java.util.Scanner(System.in).nextInt();
-        b = new java.util.Scanner(System.in).nextInt();
+        a = new java.util.Scanner_sc(System.in).nextInt();
+        b = new java.util.Scanner_sc(System.in).nextInt();
         c = a + b;
         System.out.println("Сумма ваших чисел равна " + c);*/
         //-------------------------------------------------------
 
         //это пока не работает
-        //Scanner key = new Scanner(System.in);
+        //Scanner_sc key = new Scanner_sc(System.in);
 
 
         //----------------пока этим пользуюсь
-        /*int ver = new java.util.Scanner(System.in).nextInt();
+        /*int ver = new java.util.Scanner_sc(System.in).nextInt();
         int a = Integer.valueOf(ver);*/
 
         //----------через строку----------------------------------
